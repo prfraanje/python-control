@@ -322,11 +322,17 @@ def forced_response(sys, T=None, U=0., X0=0., transpose=False):
     else:
         # Discrete time simulation using signal processing toolbox
         dsys = (A, B, C, D, sys.dt)
+
+        U = sp.transpose(U)
+
         tout, yout, xout = sp.signal.dlsim(dsys, U, T, X0)
 
         # Transpose the output and state vectors to match local convention
         xout = sp.transpose(xout)
         yout = sp.transpose(yout)
+
+        yout = squeeze(yout)
+        xout = squeeze(xout)
 
     # See if we need to transpose the data back into MATLAB form
     if (transpose):

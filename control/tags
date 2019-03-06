@@ -1,0 +1,549 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Affine2D	grid.py	/^from matplotlib.transforms import Affine2D$/;"	kind:namespace	line:8	language:Python
+Configuration	setup.py	/^    from numpy.distutils.misc_util import Configuration$/;"	kind:namespace	line:2	language:Python
+ControlArgument	exception.py	/^class ControlArgument(Exception):$/;"	kind:class	line:51	language:Python	inherits:Exception
+ControlArgument	mateqn.py	/^from .exception import ControlSlycot, ControlArgument$/;"	kind:namespace	line:46	language:Python
+ControlArgument	statefbk.py	/^from .exception import ControlSlycot, ControlArgument, ControlDimension$/;"	kind:namespace	line:46	language:Python
+ControlDimension	exception.py	/^class ControlDimension(Exception):$/;"	kind:class	line:47	language:Python	inherits:Exception
+ControlDimension	statefbk.py	/^from .exception import ControlSlycot, ControlArgument, ControlDimension$/;"	kind:namespace	line:46	language:Python
+ControlMIMONotImplemented	exception.py	/^class ControlMIMONotImplemented(Exception):$/;"	kind:class	line:55	language:Python	inherits:Exception
+ControlMIMONotImplemented	rlocus.py	/^from .exception import ControlMIMONotImplemented$/;"	kind:namespace	line:55	language:Python
+ControlNotImplemented	canonical.py	/^from .exception import ControlNotImplemented$/;"	kind:namespace	line:4	language:Python
+ControlNotImplemented	exception.py	/^class ControlNotImplemented(Exception):$/;"	kind:class	line:59	language:Python	inherits:Exception
+ControlNotImplemented	phaseplot.py	/^from .exception import ControlNotImplemented$/;"	kind:namespace	line:44	language:Python
+ControlSlycot	exception.py	/^class ControlSlycot(Exception):$/;"	kind:class	line:42	language:Python	inherits:Exception
+ControlSlycot	mateqn.py	/^from .exception import ControlSlycot, ControlArgument$/;"	kind:namespace	line:46	language:Python
+ControlSlycot	modelsimp.py	/^from .exception import ControlSlycot$/;"	kind:namespace	line:48	language:Python
+ControlSlycot	statefbk.py	/^from .exception import ControlSlycot, ControlArgument, ControlDimension$/;"	kind:namespace	line:46	language:Python
+Decimal	freqplot.py	/^    from decimal import Decimal$/;"	kind:namespace	line:651	language:Python
+FRD	frdata.py	/^class FRD(LTI):$/;"	kind:class	line:60	language:Python	inherits:LTI
+FormatterDMS	grid.py	/^class FormatterDMS(object):$/;"	kind:class	line:10	language:Python	inherits:object
+GridHelperCurveLinear	grid.py	/^from mpl_toolkits.axisartist.grid_helper_curvelinear import GridHelperCurveLinear$/;"	kind:namespace	line:5	language:Python
+LTI	frdata.py	/^from .lti import LTI$/;"	kind:namespace	line:56	language:Python
+LTI	lti.py	/^class LTI:$/;"	kind:class	line:21	language:Python	inherits:
+LTI	pzmap.py	/^from .lti import LTI, isdtime, isctime$/;"	kind:namespace	line:45	language:Python
+LTI	statesp.py	/^from .lti import LTI, timebase, timebaseEqual, isdtime$/;"	kind:namespace	line:64	language:Python
+LTI	timeresp.py	/^from .lti import LTI     # base class of StateSpace, TransferFunction$/;"	kind:namespace	line:57	language:Python
+LTI	xferfcn.py	/^from .lti import LTI, timebaseEqual, timebase, isdtime$/;"	kind:namespace	line:65	language:Python
+LinAlgError	statesp.py	/^from numpy.linalg.linalg import LinAlgError$/;"	kind:namespace	line:60	language:Python
+ModifiedExtremeFinderCycle	grid.py	/^class ModifiedExtremeFinderCycle(angle_helper.ExtremeFinderCycle):$/;"	kind:class	line:18	language:Python	inherits:angle_helper.ExtremeFinderCycle
+PolarAxes	grid.py	/^from matplotlib.projections import PolarAxes$/;"	kind:namespace	line:7	language:Python
+StateSpace	canonical.py	/^from .statesp import StateSpace$/;"	kind:namespace	line:6	language:Python
+StateSpace	dtime.py	/^from .statesp import StateSpace, _convertToStateSpace$/;"	kind:namespace	line:50	language:Python
+StateSpace	modelsimp.py	/^from .statesp import StateSpace$/;"	kind:namespace	line:50	language:Python
+StateSpace	robust.py	/^from .statesp import StateSpace$/;"	kind:namespace	line:45	language:Python
+StateSpace	statesp.py	/^class StateSpace(LTI):$/;"	kind:class	line:93	language:Python	inherits:LTI
+StateSpace	xferfcn.py	/^        from .statesp import StateSpace$/;"	kind:namespace	line:1231	language:Python
+StateSpace	xferfcn.py	/^        from .statesp import StateSpace$/;"	kind:namespace	line:283	language:Python
+StateSpace	xferfcn.py	/^    from .statesp import StateSpace$/;"	kind:namespace	line:1068	language:Python
+StateSpace	xferfcn.py	/^    from .statesp import StateSpace$/;"	kind:namespace	line:1306	language:Python
+SubplotHost	grid.py	/^from mpl_toolkits.axisartist import SubplotHost$/;"	kind:namespace	line:4	language:Python
+Tester	__init__.py	/^from numpy.testing import Tester$/;"	kind:namespace	line:82	language:Python
+TransferFunction	statesp.py	/^        from .xferfcn import TransferFunction$/;"	kind:namespace	line:1157	language:Python
+TransferFunction	statesp.py	/^    from .xferfcn import TransferFunction$/;"	kind:namespace	line:1227	language:Python
+TransferFunction	statesp.py	/^    from .xferfcn import TransferFunction$/;"	kind:namespace	line:778	language:Python
+TransferFunction	xferfcn.py	/^class TransferFunction(LTI):$/;"	kind:class	line:70	language:Python	inherits:LTI
+_RLFeedbackClicks	rlocus.py	/^def _RLFeedbackClicks(event, sys,fig,point):$/;"	kind:function	line:353	language:Python	access:public
+_RLFindRoots	rlocus.py	/^def _RLFindRoots(nump, denp, kvect):$/;"	kind:function	line:311	language:Python	access:public
+_RLSortRoots	rlocus.py	/^def _RLSortRoots(mymat):$/;"	kind:function	line:330	language:Python	access:public
+__add__	frdata.py	/^    def __add__(self, other):$/;"	kind:member	line:185	language:Python	class:FRD	file:	access:private
+__add__	statesp.py	/^    def __add__(self, other):$/;"	kind:member	line:246	language:Python	class:StateSpace	file:	access:private
+__add__	xferfcn.py	/^    def __add__(self, other):$/;"	kind:member	line:281	language:Python	class:TransferFunction	file:	access:private
+__all__	bdalg.py	/^__all__ = ['series', 'parallel', 'negate', 'feedback', 'append', 'connect']$/;"	kind:variable	line:62	language:Python
+__all__	canonical.py	/^__all__ = ['canonical_form', 'reachable_form', 'observable_form']$/;"	kind:variable	line:12	language:Python
+__all__	ctrlutil.py	/^__all__ = ['unwrap', 'issys', 'db2mag', 'mag2db']$/;"	kind:variable	line:48	language:Python
+__all__	delay.py	/^__all__ = ['pade']$/;"	kind:variable	line:47	language:Python
+__all__	dtime.py	/^__all__ = ['sample_system', 'c2d']$/;"	kind:variable	line:52	language:Python
+__all__	frdata.py	/^__all__ = ['FRD', 'frd']$/;"	kind:variable	line:58	language:Python
+__all__	freqplot.py	/^__all__ = ['bode_plot', 'nyquist_plot', 'gangof4_plot',$/;"	kind:variable	line:52	language:Python
+__all__	lti.py	/^__all__ = ['issiso', 'timebase', 'timebaseEqual', 'isdtime', 'isctime',$/;"	kind:variable	line:18	language:Python
+__all__	margins.py	/^__all__ = ['stability_margins', 'phase_crossover_frequencies', 'margin']$/;"	kind:variable	line:60	language:Python
+__all__	mateqn.py	/^__all__ = ['lyap', 'dlyap', 'dare', 'care']$/;"	kind:variable	line:48	language:Python
+__all__	modelsimp.py	/^__all__ = ['hsvd', 'balred', 'modred', 'era', 'markov', 'minreal']$/;"	kind:variable	line:53	language:Python
+__all__	nichols.py	/^__all__ = ['nichols_plot', 'nichols', 'nichols_grid']$/;"	kind:variable	line:58	language:Python
+__all__	phaseplot.py	/^__all__ = ['phase_plot', 'box_grid']$/;"	kind:variable	line:46	language:Python
+__all__	pzmap.py	/^__all__ = ['pzmap']$/;"	kind:variable	line:48	language:Python
+__all__	rlocus.py	/^__all__ = ['root_locus', 'rlocus']$/;"	kind:variable	line:60	language:Python
+__all__	statefbk.py	/^__all__ = ['ctrb', 'obsv', 'gram', 'place', 'place_varga', 'lqr', 'acker']$/;"	kind:variable	line:48	language:Python
+__all__	statesp.py	/^__all__ = ['StateSpace', 'ss', 'rss', 'drss', 'tf2ss', 'ssdata']$/;"	kind:variable	line:68	language:Python
+__all__	timeresp.py	/^__all__ = ['forced_response', 'step_response', 'initial_response',$/;"	kind:variable	line:61	language:Python
+__all__	xferfcn.py	/^__all__ = ['TransferFunction', 'tf', 'ss2tf', 'tfdata']$/;"	kind:variable	line:67	language:Python
+__call__	grid.py	/^    def __call__(self, transform_xy, x1, y1, x2, y2):$/;"	kind:member	line:20	language:Python	class:ModifiedExtremeFinderCycle	file:	access:private
+__call__	grid.py	/^    def __call__(self,direction,factor,values):$/;"	kind:member	line:12	language:Python	class:FormatterDMS	file:	access:private
+__call__	xferfcn.py	/^    def __call__(self, s):$/;"	kind:member	line:186	language:Python	class:TransferFunction	file:	access:private
+__commit__	__init__.py	/^    from ._version import __version__, __commit__$/;"	kind:namespace	line:76	language:Python
+__div__	frdata.py	/^    def __div__(self, other):$/;"	kind:member	line:297	language:Python	class:FRD	file:	access:private
+__div__	statesp.py	/^    def __div__(self, other):$/;"	kind:member	line:372	language:Python	class:StateSpace	file:	access:private
+__div__	xferfcn.py	/^    def __div__(self, other):$/;"	kind:member	line:456	language:Python	class:TransferFunction	file:	access:private
+__getitem__	statesp.py	/^    def __getitem__(self, indices):$/;"	kind:member	line:679	language:Python	class:StateSpace	file:	access:private
+__getitem__	xferfcn.py	/^    def __getitem__(self, key):$/;"	kind:member	line:490	language:Python	class:TransferFunction	file:	access:private
+__init__	frdata.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:85	language:Python	class:FRD	access:public
+__init__	lti.py	/^    def __init__(self, inputs=1, outputs=1, dt=None):$/;"	kind:member	line:43	language:Python	class:LTI	access:public
+__init__	statesp.py	/^    def __init__(self, *args):$/;"	kind:member	line:118	language:Python	class:StateSpace	access:public
+__init__	xferfcn.py	/^    def __init__(self, *args):$/;"	kind:member	line:94	language:Python	class:TransferFunction	access:public
+__mul__	frdata.py	/^    def __mul__(self, other):$/;"	kind:member	line:223	language:Python	class:FRD	file:	access:private
+__mul__	statesp.py	/^    def __mul__(self, other):$/;"	kind:member	line:303	language:Python	class:StateSpace	file:	access:private
+__mul__	xferfcn.py	/^    def __mul__(self, other):$/;"	kind:member	line:332	language:Python	class:TransferFunction	file:	access:private
+__neg__	frdata.py	/^    def __neg__(self):$/;"	kind:member	line:180	language:Python	class:FRD	file:	access:private
+__neg__	statesp.py	/^    def __neg__(self):$/;"	kind:member	line:240	language:Python	class:StateSpace	file:	access:private
+__neg__	xferfcn.py	/^    def __neg__(self):$/;"	kind:member	line:271	language:Python	class:TransferFunction	file:	access:private
+__pow__	frdata.py	/^    def __pow__(self,other):$/;"	kind:member	line:320	language:Python	class:FRD	file:	access:private
+__pow__	xferfcn.py	/^    def __pow__(self, other):$/;"	kind:member	line:480	language:Python	class:TransferFunction	file:	access:private
+__radd__	frdata.py	/^    def __radd__(self, other):$/;"	kind:member	line:208	language:Python	class:FRD	file:	access:private
+__radd__	statesp.py	/^    def __radd__(self, other):$/;"	kind:member	line:286	language:Python	class:StateSpace	file:	access:private
+__radd__	xferfcn.py	/^    def __radd__(self, other):$/;"	kind:member	line:320	language:Python	class:TransferFunction	file:	access:private
+__rdiv__	frdata.py	/^    def __rdiv__(self, other):$/;"	kind:member	line:317	language:Python	class:FRD	file:	access:private
+__rdiv__	statesp.py	/^    def __rdiv__(self, other):$/;"	kind:member	line:377	language:Python	class:StateSpace	file:	access:private
+__rdiv__	xferfcn.py	/^    def __rdiv__(self, other):$/;"	kind:member	line:477	language:Python	class:TransferFunction	file:	access:private
+__repr__	statesp.py	/^    __repr__ = __str__$/;"	kind:variable	line:237	language:Python	class:StateSpace
+__repr__	xferfcn.py	/^    __repr__ = __str__$/;"	kind:variable	line:269	language:Python	class:TransferFunction
+__rmul__	frdata.py	/^    def __rmul__(self, other):$/;"	kind:member	line:249	language:Python	class:FRD	file:	access:private
+__rmul__	statesp.py	/^    def __rmul__(self, other):$/;"	kind:member	line:344	language:Python	class:StateSpace	file:	access:private
+__rmul__	xferfcn.py	/^    def __rmul__(self, other):$/;"	kind:member	line:377	language:Python	class:TransferFunction	file:	access:private
+__rsub__	frdata.py	/^    def __rsub__(self, other):$/;"	kind:member	line:218	language:Python	class:FRD	file:	access:private
+__rsub__	statesp.py	/^    def __rsub__(self, other):$/;"	kind:member	line:297	language:Python	class:StateSpace	file:	access:private
+__rsub__	xferfcn.py	/^    def __rsub__(self, other):$/;"	kind:member	line:328	language:Python	class:TransferFunction	file:	access:private
+__rtruediv__	frdata.py	/^    def __rtruediv__(self, other):$/;"	kind:member	line:301	language:Python	class:FRD	file:	access:private
+__rtruediv__	xferfcn.py	/^    def __rtruediv__(self, other):$/;"	kind:member	line:460	language:Python	class:TransferFunction	file:	access:private
+__str__	frdata.py	/^    def __str__(self):$/;"	kind:member	line:160	language:Python	class:FRD	file:	access:private
+__str__	statesp.py	/^    def __str__(self):$/;"	kind:member	line:222	language:Python	class:StateSpace	file:	access:private
+__str__	xferfcn.py	/^    def __str__(self, var=None):$/;"	kind:member	line:229	language:Python	class:TransferFunction	file:	access:private
+__sub__	frdata.py	/^    def __sub__(self, other):$/;"	kind:member	line:213	language:Python	class:FRD	file:	access:private
+__sub__	statesp.py	/^    def __sub__(self, other):$/;"	kind:member	line:292	language:Python	class:StateSpace	file:	access:private
+__sub__	xferfcn.py	/^    def __sub__(self, other):$/;"	kind:member	line:324	language:Python	class:TransferFunction	file:	access:private
+__truediv__	frdata.py	/^    def __truediv__(self, other):$/;"	kind:member	line:277	language:Python	class:FRD	file:	access:private
+__truediv__	xferfcn.py	/^    def __truediv__(self, other):$/;"	kind:member	line:426	language:Python	class:TransferFunction	file:	access:private
+__version__	__init__.py	/^    __version__ = "dev"$/;"	kind:variable	line:78	language:Python
+__version__	__init__.py	/^    from ._version import __version__, __commit__$/;"	kind:namespace	line:76	language:Python
+_add_siso	xferfcn.py	/^def _add_siso(num1, den1, num2, den2):$/;"	kind:function	line:1031	language:Python	access:public
+_ax_lim	rlocus.py	/^def _ax_lim(mymat):$/;"	kind:function	line:244	language:Python	access:public
+_break_points	rlocus.py	/^def _break_points(num, den):$/;"	kind:function	line:226	language:Python	access:public
+_c2d_matched	xferfcn.py	/^def _c2d_matched(sysC, Ts):$/;"	kind:function	line:956	language:Python	access:public
+_check_convert_array	timeresp.py	/^def _check_convert_array(in_obj, legal_shapes, err_msg_start, squeeze=False,$/;"	kind:function	line:65	language:Python	access:public
+_clean_part	xferfcn.py	/^def _clean_part(data):$/;"	kind:function	line:1340	language:Python	access:public
+_common_den	xferfcn.py	/^    def _common_den(self, imag_tol=None):$/;"	kind:member	line:729	language:Python	class:TransferFunction	access:public
+_convertToFRD	frdata.py	/^def _convertToFRD(sys, omega, inputs=1, outputs=1):$/;"	kind:function	line:445	language:Python	access:public
+_convertToStateSpace	dtime.py	/^from .statesp import StateSpace, _convertToStateSpace$/;"	kind:namespace	line:50	language:Python
+_convertToStateSpace	statesp.py	/^def _convertToStateSpace(sys, **kw):$/;"	kind:function	line:763	language:Python	access:public
+_convertToStateSpace	timeresp.py	/^from .statesp import _convertToStateSpace, _mimo2simo, _mimo2siso$/;"	kind:namespace	line:58	language:Python
+_convert_to_transfer_function	rlocus.py	/^from .xferfcn import _convert_to_transfer_function$/;"	kind:namespace	line:54	language:Python
+_convert_to_transfer_function	statesp.py	/^from .xferfcn import _convert_to_transfer_function$/;"	kind:namespace	line:65	language:Python
+_convert_to_transfer_function	xferfcn.py	/^def _convert_to_transfer_function(sys, **kw):$/;"	kind:function	line:1044	language:Python	access:public
+_dcgain_cont	xferfcn.py	/^    def _dcgain_cont(self):$/;"	kind:member	line:933	language:Python	class:TransferFunction	access:public
+_default_gains	rlocus.py	/^def _default_gains(num, den, xlim, ylim):$/;"	kind:function	line:153	language:Python	access:public
+_default_response_times	timeresp.py	/^from scipy.signal.ltisys import _default_response_times$/;"	kind:namespace	line:55	language:Python
+_evalfr	frdata.py	/^    def _evalfr(self, omega):$/;"	kind:member	line:366	language:Python	class:FRD	access:public
+_evalfr	statesp.py	/^    def _evalfr(self, omega):$/;"	kind:member	line:394	language:Python	class:StateSpace	access:public
+_evalfr	xferfcn.py	/^    def _evalfr(self, omega):$/;"	kind:member	line:542	language:Python	class:TransferFunction	access:public
+_final_setup	grid.py	/^def _final_setup(ax):$/;"	kind:function	line:118	language:Python	access:public
+_find	phaseplot.py	/^def _find(condition):$/;"	kind:function	line:49	language:Python	access:public
+_get_ss_simo	timeresp.py	/^def _get_ss_simo(sys, input=None, output=None):$/;"	kind:function	line:345	language:Python	access:public
+_k_max	rlocus.py	/^def _k_max(num, den, real_break_points, k_break_points):$/;"	kind:function	line:256	language:Python	access:public
+_matrix	statesp.py	/^def _matrix(a):$/;"	kind:function	line:71	language:Python	access:public
+_mimo2simo	statesp.py	/^def _mimo2simo(sys, input, warn_conversion=False):$/;"	kind:function	line:1029	language:Python	access:public
+_mimo2simo	timeresp.py	/^from .statesp import _convertToStateSpace, _mimo2simo, _mimo2siso$/;"	kind:namespace	line:58	language:Python
+_mimo2siso	statesp.py	/^def _mimo2siso(sys, input, output, warn_conversion=False):$/;"	kind:function	line:972	language:Python	access:public
+_mimo2siso	timeresp.py	/^from .statesp import _convertToStateSpace, _mimo2simo, _mimo2siso$/;"	kind:namespace	line:58	language:Python
+_polyimsplit	margins.py	/^def _polyimsplit(pol):$/;"	kind:function	line:63	language:Python	access:public
+_polysqr	margins.py	/^def _polysqr(pol):$/;"	kind:function	line:74	language:Python	access:public
+_remove_useless_states	statesp.py	/^    def _remove_useless_states(self):$/;"	kind:member	line:188	language:Python	class:StateSpace	access:public
+_rss_generate	statesp.py	/^def _rss_generate(states, inputs, outputs, type):$/;"	kind:function	line:855	language:Python	access:public
+_size_as_needed	robust.py	/^def _size_as_needed(w, wname, n):$/;"	kind:function	line:176	language:Python	access:public
+_systopoly1d	rlocus.py	/^def _systopoly1d(sys):$/;"	kind:function	line:282	language:Python	access:public
+_tf_polynomial_to_string	xferfcn.py	/^def _tf_polynomial_to_string(coeffs, var='s'):$/;"	kind:function	line:982	language:Python	access:public
+_truncatecoeff	xferfcn.py	/^    def _truncatecoeff(self):$/;"	kind:member	line:200	language:Python	class:TransferFunction	access:public
+ab08nd	statesp.py	/^            from slycot import ab08nd$/;"	kind:namespace	line:524	language:Python
+ab09ad	modelsimp.py	/^            from slycot import ab09md, ab09ad$/;"	kind:namespace	line:261	language:Python
+ab09md	modelsimp.py	/^            from slycot import ab09md, ab09ad$/;"	kind:namespace	line:261	language:Python
+ab09nd	modelsimp.py	/^            from slycot import ab09nd$/;"	kind:namespace	line:266	language:Python
+absolute	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+absolute	lti.py	/^from numpy import absolute, real$/;"	kind:namespace	line:16	language:Python
+acker	statefbk.py	/^def acker(A, B, poles):$/;"	kind:function	line:222	language:Python	access:public
+all	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+angle	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+angle	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+angle	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+angle_helper	grid.py	/^import mpl_toolkits.axisartist.angle_helper as angle_helper$/;"	kind:namespace	line:6	language:Python
+any	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+append	bdalg.py	/^def append(*sys):$/;"	kind:function	line:253	language:Python	access:public
+append	robust.py	/^    from . import append, ss$/;"	kind:namespace	line:203	language:Python
+append	robust.py	/^    from . import append, ss, connect$/;"	kind:namespace	line:250	language:Python
+append	statesp.py	/^    def append(self, other):$/;"	kind:member	line:652	language:Python	class:StateSpace	access:public
+arg	margins.py	/^        def arg(w):$/;"	kind:function	line:218	language:Python	function:stability_margins	access:public
+array	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+array	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+array	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+array	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+asarray	mateqn.py	/^from scipy import shape, size, asarray, asmatrix, copy, zeros, eye, dot$/;"	kind:namespace	line:44	language:Python
+asarray	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+asmatrix	mateqn.py	/^from scipy import shape, size, asarray, asmatrix, copy, zeros, eye, dot$/;"	kind:namespace	line:44	language:Python
+augw	robust.py	/^def augw(g,w1=None,w2=None,w3=None):$/;"	kind:function	line:219	language:Python	access:public
+axisartist	grid.py	/^import mpl_toolkits.axisartist.angle_helper as angle_helper$/;"	kind:namespace	line:6	language:Python
+balred	modelsimp.py	/^def balred(sys, orders, method='truncate', alpha=None):$/;"	kind:function	line:208	language:Python	access:public
+bench	__init__.py	/^bench = Tester().bench$/;"	kind:variable	line:84	language:Python
+bode	freqplot.py	/^bode = bode_plot$/;"	kind:variable	line:688	language:Python
+bode_Hz	config.py	/^bode_Hz = False                 # Bode plot frequency units$/;"	kind:variable	line:13	language:Python
+bode_dB	config.py	/^bode_dB = False                 # Bode plot magnitude units$/;"	kind:variable	line:11	language:Python
+bode_deg	config.py	/^bode_deg = True                 # Bode Plot phase units$/;"	kind:variable	line:12	language:Python
+bode_feature_periphery_decade	config.py	/^bode_feature_periphery_decade = 1.0  # Bode plot feature periphery in decades$/;"	kind:variable	line:15	language:Python
+bode_number_of_samples	config.py	/^bode_number_of_samples = None   # Bode plot number of samples$/;"	kind:variable	line:14	language:Python
+bode_plot	freqplot.py	/^def bode_plot(syslist, omega=None, dB=None, Hz=None, deg=None,$/;"	kind:function	line:65	language:Python	access:public
+box_grid	phaseplot.py	/^def box_grid(xlimp, ylimp):$/;"	kind:function	line:300	language:Python	access:public
+c2d	dtime.py	/^def c2d(sysc, Ts, method='zoh'):$/;"	kind:function	line:93	language:Python	access:public
+canonical_form	canonical.py	/^def canonical_form(xsys, form='reachable'):$/;"	kind:function	line:14	language:Python	access:public
+care	mateqn.py	/^def care(A,B,Q,R=None,S=None,E=None):$/;"	kind:function	line:414	language:Python	access:public
+chain	xferfcn.py	/^from itertools import chain$/;"	kind:namespace	line:64	language:Python
+closed_loop_contours	nichols.py	/^def closed_loop_contours(Gcl_mags, Gcl_phases):$/;"	kind:function	line:218	language:Python	access:public
+concatenate	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+config	freqplot.py	/^    from . import config$/;"	kind:namespace	line:122	language:Python
+config	freqplot.py	/^    from . import config$/;"	kind:namespace	line:567	language:Python
+configuration	setup.py	/^def configuration(parent_package='', top_path=None):$/;"	kind:function	line:1	language:Python	access:public
+connect	bdalg.py	/^def connect(sys, Q, inputv, outputv):$/;"	kind:function	line:289	language:Python	access:public
+connect	robust.py	/^    from . import append, ss, connect$/;"	kind:namespace	line:250	language:Python
+cont2discrete	statesp.py	/^from scipy.signal import lti, cont2discrete$/;"	kind:namespace	line:62	language:Python
+cont2discrete	xferfcn.py	/^from scipy.signal import lti, tf2zpk, zpk2tf, cont2discrete$/;"	kind:namespace	line:61	language:Python
+copy	mateqn.py	/^from scipy import shape, size, asarray, asmatrix, copy, zeros, eye, dot$/;"	kind:namespace	line:44	language:Python
+cos	grid.py	/^from numpy import cos, sin, sqrt, linspace, pi, exp$/;"	kind:namespace	line:2	language:Python
+cos	pzmap.py	/^from numpy import real, imag, linspace, exp, cos, sin, sqrt$/;"	kind:namespace	line:43	language:Python
+cos	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+cos	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+ctrb	canonical.py	/^from .statefbk import ctrb, obsv$/;"	kind:namespace	line:7	language:Python
+ctrb	statefbk.py	/^def ctrb(A,B):$/;"	kind:function	line:371	language:Python	access:public
+damp	lti.py	/^    def damp(self):$/;"	kind:member	line:88	language:Python	class:LTI	access:public
+damp	lti.py	/^def damp(sys, doprint=True):$/;"	kind:function	line:288	language:Python	access:public
+dare	mateqn.py	/^def dare(A,B,Q,R,S=None,E=None):$/;"	kind:function	line:674	language:Python	access:public
+dare_old	mateqn.py	/^def dare_old(A,B,Q,R,S=None,E=None):$/;"	kind:function	line:705	language:Python	access:public
+db2mag	ctrlutil.py	/^def db2mag(db):$/;"	kind:function	line:84	language:Python	access:public
+dcgain	lti.py	/^    def dcgain(self):$/;"	kind:member	line:110	language:Python	class:LTI	access:public
+dcgain	lti.py	/^def dcgain(sys):$/;"	kind:function	line:438	language:Python	access:public
+dcgain	statesp.py	/^    def dcgain(self):$/;"	kind:member	line:732	language:Python	class:StateSpace	access:public
+dcgain	xferfcn.py	/^    def dcgain(self):$/;"	kind:member	line:917	language:Python	class:TransferFunction	access:public
+deepcopy	statesp.py	/^from copy import deepcopy$/;"	kind:namespace	line:66	language:Python
+deepcopy	xferfcn.py	/^from copy import deepcopy$/;"	kind:namespace	line:62	language:Python
+default_frequency_range	freqplot.py	/^def default_frequency_range(syslist, Hz=None, number_of_samples=None, $/;"	kind:function	line:524	language:Python	access:public
+default_frequency_range	nichols.py	/^from .freqplot import default_frequency_range$/;"	kind:namespace	line:56	language:Python
+delete	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+delete	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+division	delay.py	/^from __future__ import division$/;"	kind:namespace	line:45	language:Python
+division	frdata.py	/^from __future__ import division$/;"	kind:namespace	line:1	language:Python
+division	statesp.py	/^from __future__ import division # for _convertToStateSpace$/;"	kind:namespace	line:13	language:Python
+division	xferfcn.py	/^from __future__ import division$/;"	kind:namespace	line:12	language:Python
+dlyap	mateqn.py	/^def dlyap(A,Q,C=None,E=None):$/;"	kind:function	line:234	language:Python	access:public
+dot	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+dot	mateqn.py	/^from scipy import shape, size, asarray, asmatrix, copy, zeros, eye, dot$/;"	kind:namespace	line:44	language:Python
+dot	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+drss	statesp.py	/^def drss(states=1, outputs=1, inputs=1):$/;"	kind:function	line:1280	language:Python	access:public
+dstab	margins.py	/^        def dstab(w):$/;"	kind:function	line:222	language:Python	function:stability_margins	access:public
+eig	canonical.py	/^from numpy.linalg import solve, matrix_rank, eig$/;"	kind:namespace	line:10	language:Python
+eigvals	mateqn.py	/^from scipy.linalg import eigvals, solve_discrete_are, solve$/;"	kind:namespace	line:45	language:Python
+eigvals	statesp.py	/^from numpy.linalg import solve, eigvals, matrix_rank$/;"	kind:namespace	line:59	language:Python
+empty	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+empty	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+empty	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+epsw	frdata.py	/^    epsw = 1e-8$/;"	kind:variable	line:83	language:Python	class:FRD
+era	modelsimp.py	/^def era(YY, m, n, nin, nout, r):$/;"	kind:function	line:348	language:Python	access:public
+eval	frdata.py	/^    def eval(self, omega):$/;"	kind:member	line:352	language:Python	class:FRD	access:public
+evalfr	frdata.py	/^    def evalfr(self, omega):$/;"	kind:member	line:332	language:Python	class:FRD	access:public
+evalfr	lti.py	/^def evalfr(sys, x):$/;"	kind:function	line:342	language:Python	access:public
+evalfr	statesp.py	/^    def evalfr(self, omega):$/;"	kind:member	line:382	language:Python	class:StateSpace	access:public
+evalfr	xferfcn.py	/^    def evalfr(self, omega):$/;"	kind:member	line:530	language:Python	class:TransferFunction	access:public
+exp	grid.py	/^from numpy import cos, sin, sqrt, linspace, pi, exp$/;"	kind:namespace	line:2	language:Python
+exp	pzmap.py	/^from numpy import real, imag, linspace, exp, cos, sin, sqrt$/;"	kind:namespace	line:43	language:Python
+exp	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+exp	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+exp	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+eye	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+eye	mateqn.py	/^from scipy import shape, size, asarray, asmatrix, copy, zeros, eye, dot$/;"	kind:namespace	line:44	language:Python
+eye	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+feedback	bdalg.py	/^def feedback(sys1, sys2=1, sign=-1):$/;"	kind:function	line:184	language:Python	access:public
+feedback	frdata.py	/^    def feedback(self, other=1, sign=-1):$/;"	kind:member	line:422	language:Python	class:FRD	access:public
+feedback	freqplot.py	/^from .bdalg import feedback$/;"	kind:namespace	line:49	language:Python
+feedback	statesp.py	/^    def feedback(self, other=1, sign=-1):$/;"	kind:member	line:558	language:Python	class:StateSpace	access:public
+feedback	xferfcn.py	/^    def feedback(self, other=1, sign=-1):$/;"	kind:member	line:629	language:Python	class:TransferFunction	access:public
+finfo	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+float_info	xferfcn.py	/^        from sys import float_info$/;"	kind:namespace	line:667	language:Python
+floor	freqplot.py	/^    from math import floor$/;"	kind:namespace	line:652	language:Python
+forced_response	timeresp.py	/^def forced_response(sys, T=None, U=0., X0=0., transpose=False):$/;"	kind:function	line:172	language:Python	access:public
+frd	bdalg.py	/^from . import frdata as frd$/;"	kind:namespace	line:60	language:Python
+frd	frdata.py	/^def frd(*args):$/;"	kind:function	line:499	language:Python	access:public
+frdata	margins.py	/^from . import frdata$/;"	kind:namespace	line:58	language:Python
+freqresp	frdata.py	/^    def freqresp(self, omega):$/;"	kind:member	line:397	language:Python	class:FRD	access:public
+freqresp	lti.py	/^def freqresp(sys, omega):$/;"	kind:function	line:384	language:Python	access:public
+freqresp	statesp.py	/^    def freqresp(self, omega):$/;"	kind:member	line:417	language:Python	class:StateSpace	access:public
+freqresp	xferfcn.py	/^    def freqresp(self, omega):$/;"	kind:member	line:576	language:Python	class:TransferFunction	access:public
+gangof4	freqplot.py	/^gangof4 = gangof4_plot$/;"	kind:variable	line:690	language:Python
+gangof4_plot	freqplot.py	/^def gangof4_plot(P, C, omega=None):$/;"	kind:function	line:443	language:Python	access:public
+gen_prefix	freqplot.py	/^def gen_prefix(pow1000):$/;"	kind:function	line:661	language:Python	access:public
+gen_zero_centered_series	freqplot.py	/^                def gen_zero_centered_series(val_min, val_max, period):$/;"	kind:function	line:299	language:Python	function:bode_plot	access:public
+get_pow1000	freqplot.py	/^def get_pow1000(num):$/;"	kind:function	line:645	language:Python	access:public
+gram	modelsimp.py	/^from .statefbk import gram$/;"	kind:namespace	line:51	language:Python
+gram	statefbk.py	/^def gram(sys,type):$/;"	kind:function	line:430	language:Python	access:public
+h2syn	robust.py	/^def h2syn(P,nmeas,ncon):$/;"	kind:function	line:48	language:Python	access:public
+hinfsyn	robust.py	/^def hinfsyn(P,nmeas,ncon):$/;"	kind:function	line:103	language:Python	access:public
+horner	statesp.py	/^    def horner(self, s):$/;"	kind:member	line:407	language:Python	class:StateSpace	access:public
+horner	xferfcn.py	/^    def horner(self, s):$/;"	kind:member	line:556	language:Python	class:TransferFunction	access:public
+hstack	canonical.py	/^from numpy import zeros, shape, poly, iscomplex, hstack$/;"	kind:namespace	line:9	language:Python
+hsvd	modelsimp.py	/^def hsvd(sys):$/;"	kind:function	line:59	language:Python	access:public
+imag	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+imag	pzmap.py	/^from numpy import real, imag, linspace, exp, cos, sin, sqrt$/;"	kind:namespace	line:43	language:Python
+imag	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+impulse_response	timeresp.py	/^def impulse_response(sys, T=None, X0=0., input=0, output=None,$/;"	kind:function	line:515	language:Python	access:public
+initial_response	timeresp.py	/^def initial_response(sys, T=None, X0=0., input=0, output=None,$/;"	kind:function	line:442	language:Python	access:public
+iscomplex	canonical.py	/^from numpy import zeros, shape, poly, iscomplex, hstack$/;"	kind:namespace	line:9	language:Python
+isctime	dtime.py	/^from .lti import isctime$/;"	kind:namespace	line:49	language:Python
+isctime	lti.py	/^    def isctime(self, strict=False):$/;"	kind:member	line:68	language:Python	class:LTI	access:public
+isctime	lti.py	/^def isctime(sys, strict=False):$/;"	kind:function	line:205	language:Python	access:public
+isctime	modelsimp.py	/^from .lti import isdtime, isctime$/;"	kind:namespace	line:49	language:Python
+isctime	pzmap.py	/^from .lti import LTI, isdtime, isctime$/;"	kind:namespace	line:45	language:Python
+isctime	timeresp.py	/^from .lti import isdtime, isctime$/;"	kind:namespace	line:59	language:Python
+isdtime	lti.py	/^    def isdtime(self, strict=False):$/;"	kind:member	line:51	language:Python	class:LTI	access:public
+isdtime	lti.py	/^def isdtime(sys, strict=False):$/;"	kind:function	line:180	language:Python	access:public
+isdtime	modelsimp.py	/^from .lti import isdtime, isctime$/;"	kind:namespace	line:49	language:Python
+isdtime	pzmap.py	/^from .lti import LTI, isdtime, isctime$/;"	kind:namespace	line:45	language:Python
+isdtime	rlocus.py	/^from .lti import isdtime$/;"	kind:namespace	line:57	language:Python
+isdtime	statesp.py	/^from .lti import LTI, timebase, timebaseEqual, isdtime$/;"	kind:namespace	line:64	language:Python
+isdtime	timeresp.py	/^from .lti import isdtime, isctime$/;"	kind:namespace	line:59	language:Python
+isdtime	xferfcn.py	/^from .lti import LTI, timebaseEqual, timebase, isdtime$/;"	kind:namespace	line:65	language:Python
+isinf	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+issiso	canonical.py	/^from .lti import issiso$/;"	kind:namespace	line:5	language:Python
+issiso	lti.py	/^    def issiso(self):$/;"	kind:member	line:84	language:Python	class:LTI	access:public
+issiso	lti.py	/^def issiso(sys, strict=False):$/;"	kind:function	line:116	language:Python	access:public
+issiso	margins.py	/^from .lti import issiso$/;"	kind:namespace	line:57	language:Python
+issys	ctrlutil.py	/^def issys(obj):$/;"	kind:function	line:80	language:Python	access:public
+itertools	statesp.py	/^    import itertools$/;"	kind:namespace	line:779	language:Python
+linalg	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+linspace	grid.py	/^from numpy import cos, sin, sqrt, linspace, pi, exp$/;"	kind:namespace	line:2	language:Python
+linspace	pzmap.py	/^from numpy import real, imag, linspace, exp, cos, sin, sqrt$/;"	kind:namespace	line:43	language:Python
+linspace	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+lqr	statefbk.py	/^def lqr(*args, **keywords):$/;"	kind:function	line:263	language:Python	access:public
+lti	ctrlutil.py	/^from . import lti$/;"	kind:namespace	line:44	language:Python
+lti	statesp.py	/^from scipy.signal import lti, cont2discrete$/;"	kind:namespace	line:62	language:Python
+lti	xferfcn.py	/^from scipy.signal import lti, tf2zpk, zpk2tf, cont2discrete$/;"	kind:namespace	line:61	language:Python
+lyap	mateqn.py	/^def lyap(A,Q,C=None,E=None):$/;"	kind:function	line:52	language:Python	access:public
+m_circles	nichols.py	/^def m_circles(mags, phase_min=-359.75, phase_max=-0.25):$/;"	kind:function	line:244	language:Python	access:public
+mag2db	ctrlutil.py	/^def mag2db(mag):$/;"	kind:function	line:104	language:Python	access:public
+margin	margins.py	/^def margin(*args):$/;"	kind:function	line:323	language:Python	access:public
+markov	modelsimp.py	/^def markov(Y, U, M):$/;"	kind:function	line:380	language:Python	access:public
+math	ctrlutil.py	/^import math$/;"	kind:namespace	line:46	language:Python
+math	freqplot.py	/^import math$/;"	kind:namespace	line:47	language:Python
+math	margins.py	/^import math$/;"	kind:namespace	line:53	language:Python
+math	statesp.py	/^import math$/;"	kind:namespace	line:54	language:Python
+matplotlib	freqplot.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:44	language:Python
+matplotlib	grid.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3	language:Python
+matplotlib	nichols.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:54	language:Python
+matplotlib	phaseplot.py	/^import matplotlib.pyplot as mpl$/;"	kind:namespace	line:41	language:Python
+matplotlib	pzmap.py	/^        import matplotlib.pyplot as plt$/;"	kind:namespace	line:81	language:Python
+matrix	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+matrix	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+matrix	statesp.py	/^    from numpy import matrix$/;"	kind:namespace	line:86	language:Python
+matrix_rank	canonical.py	/^from numpy.linalg import solve, matrix_rank, eig$/;"	kind:namespace	line:10	language:Python
+matrix_rank	statesp.py	/^from numpy.linalg import solve, eigvals, matrix_rank$/;"	kind:namespace	line:59	language:Python
+minreal	modelsimp.py	/^def minreal(sys, tol=None, verbose=True):$/;"	kind:function	line:321	language:Python	access:public
+minreal	statesp.py	/^    def minreal(self, tol=0.0):$/;"	kind:member	line:610	language:Python	class:StateSpace	access:public
+minreal	xferfcn.py	/^    def minreal(self, tol=None):$/;"	kind:member	line:662	language:Python	class:TransferFunction	access:public
+mixsyn	robust.py	/^def mixsyn(g,w1=None,w2=None,w3=None):$/;"	kind:function	line:323	language:Python	access:public
+mod	margins.py	/^        def mod(w):$/;"	kind:function	line:214	language:Python	function:stability_margins	access:public
+modal_form	canonical.py	/^def modal_form(xsys):$/;"	kind:function	line:148	language:Python	access:public
+modred	modelsimp.py	/^def modred(sys, ELIM, method='matchdc'):$/;"	kind:function	line:105	language:Python	access:public
+mpl	phaseplot.py	/^import matplotlib.pyplot as mpl$/;"	kind:namespace	line:41	language:Python
+mpl_toolkits	grid.py	/^import mpl_toolkits.axisartist.angle_helper as angle_helper$/;"	kind:namespace	line:6	language:Python
+n_circles	nichols.py	/^def n_circles(phases, mag_min=-40.0, mag_max=12.0):$/;"	kind:function	line:270	language:Python	access:public
+ndarray	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+negate	bdalg.py	/^def negate(sys):$/;"	kind:function	line:153	language:Python	access:public
+nichols	nichols.py	/^nichols = nichols_plot$/;"	kind:variable	line:297	language:Python
+nichols_grid	nichols.py	/^def nichols_grid(cl_mags=None, cl_phases=None, line_style='dotted'):$/;"	kind:function	line:114	language:Python	access:public
+nichols_plot	nichols.py	/^def nichols_plot(sys_list, omega=None, grid=True):$/;"	kind:function	line:61	language:Python	access:public
+nogrid	grid.py	/^def nogrid():$/;"	kind:function	line:125	language:Python	access:public
+nogrid	pzmap.py	/^from .grid import sgrid, zgrid, nogrid$/;"	kind:namespace	line:46	language:Python
+nogrid	rlocus.py	/^from .grid import sgrid, zgrid, nogrid$/;"	kind:namespace	line:58	language:Python
+nonzero	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+np	bdalg.py	/^import numpy as np$/;"	kind:namespace	line:57	language:Python
+np	ctrlutil.py	/^import numpy as np$/;"	kind:namespace	line:45	language:Python
+np	frdata.py	/^import numpy as np$/;"	kind:namespace	line:52	language:Python
+np	freqplot.py	/^import numpy as np$/;"	kind:namespace	line:46	language:Python
+np	grid.py	/^import numpy as np$/;"	kind:namespace	line:1	language:Python
+np	lti.py	/^import numpy as np$/;"	kind:namespace	line:15	language:Python
+np	margins.py	/^import numpy as np$/;"	kind:namespace	line:54	language:Python
+np	modelsimp.py	/^import numpy as np$/;"	kind:namespace	line:47	language:Python
+np	nichols.py	/^import numpy as np$/;"	kind:namespace	line:53	language:Python
+np	phaseplot.py	/^import numpy as np$/;"	kind:namespace	line:40	language:Python
+np	rlocus.py	/^import numpy as np$/;"	kind:namespace	line:49	language:Python
+np	robust.py	/^import numpy as np$/;"	kind:namespace	line:43	language:Python
+np	statefbk.py	/^import numpy as np$/;"	kind:namespace	line:43	language:Python
+np	statesp.py	/^import numpy as np$/;"	kind:namespace	line:55	language:Python
+np	timeresp.py	/^import numpy as np              # NumPy library$/;"	kind:namespace	line:54	language:Python
+np	xferfcn.py	/^import numpy as np$/;"	kind:namespace	line:55	language:Python
+nyquist	freqplot.py	/^nyquist = nyquist_plot$/;"	kind:variable	line:689	language:Python
+nyquist_plot	freqplot.py	/^def nyquist_plot(syslist, omega=None, Plot=True, color=None, labelFreq=0, *args, **kwargs):$/;"	kind:function	line:327	language:Python	access:public
+observable_form	canonical.py	/^def observable_form(xsys):$/;"	kind:function	line:100	language:Python	access:public
+obsv	canonical.py	/^from .statefbk import ctrb, obsv$/;"	kind:namespace	line:7	language:Python
+obsv	statefbk.py	/^def obsv(A, C):$/;"	kind:function	line:400	language:Python	access:public
+odeint	phaseplot.py	/^from scipy.integrate import odeint$/;"	kind:namespace	line:43	language:Python
+ones	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+ones	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+ones	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+pad	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+pade	delay.py	/^def pade(T, n=1, numdeg=None):$/;"	kind:function	line:49	language:Python	access:public
+parallel	bdalg.py	/^def parallel(sys1, *sysn):$/;"	kind:function	line:108	language:Python	access:public
+partial	rlocus.py	/^from functools import partial$/;"	kind:namespace	line:56	language:Python
+phase_crossover_frequencies	margins.py	/^def phase_crossover_frequencies(sys):$/;"	kind:function	line:280	language:Python	access:public
+phase_plot	phaseplot.py	/^def phase_plot(odefun, X=None, Y=None, scale=1, X0=None, T=None,$/;"	kind:function	line:56	language:Python	access:public
+pi	grid.py	/^from numpy import cos, sin, sqrt, linspace, pi, exp$/;"	kind:namespace	line:2	language:Python
+pi	pzmap.py	/^from math import pi$/;"	kind:namespace	line:44	language:Python
+pi	rlocus.py	/^from math import pi$/;"	kind:namespace	line:51	language:Python
+pi	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+place	statefbk.py	/^def place(A, B, p):$/;"	kind:function	line:52	language:Python	access:public
+place_poles	statefbk.py	/^    from scipy.signal import place_poles$/;"	kind:namespace	line:96	language:Python
+place_varga	statefbk.py	/^def place_varga(A, B, p, dtime=False, alpha=None):$/;"	kind:function	line:116	language:Python	access:public
+plt	freqplot.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:44	language:Python
+plt	grid.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3	language:Python
+plt	nichols.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:54	language:Python
+plt	pzmap.py	/^        import matplotlib.pyplot as plt$/;"	kind:namespace	line:81	language:Python
+pole	lti.py	/^def pole(sys):$/;"	kind:function	line:229	language:Python	access:public
+pole	statesp.py	/^    def pole(self):$/;"	kind:member	line:510	language:Python	class:StateSpace	access:public
+pole	xferfcn.py	/^    def pole(self):$/;"	kind:member	line:612	language:Python	class:TransferFunction	access:public
+poly	canonical.py	/^from numpy import zeros, shape, poly, iscomplex, hstack$/;"	kind:namespace	line:9	language:Python
+poly	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+poly1d	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+polyadd	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+polyfromroots	xferfcn.py	/^from numpy.polynomial.polynomial import polyfromroots$/;"	kind:namespace	line:60	language:Python
+polymul	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+polyval	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+print_function	margins.py	/^from __future__ import print_function$/;"	kind:namespace	line:13	language:Python
+print_function	mateqn.py	/^from __future__ import print_function$/;"	kind:namespace	line:9	language:Python
+print_function	modelsimp.py	/^from __future__ import print_function$/;"	kind:namespace	line:44	language:Python
+print_function	phaseplot.py	/^from __future__ import print_function$/;"	kind:namespace	line:38	language:Python
+print_function	statesp.py	/^from __future__ import print_function$/;"	kind:namespace	line:12	language:Python
+print_function	xferfcn.py	/^from __future__ import print_function$/;"	kind:namespace	line:11	language:Python
+pylab	rlocus.py	/^import pylab                    # plotting routines$/;"	kind:namespace	line:53	language:Python
+pzmap	pzmap.py	/^def pzmap(sys, Plot=True, grid=False, title='Pole Zero Map'):$/;"	kind:function	line:53	language:Python	access:public
+rand	statesp.py	/^from numpy.random import rand, randn$/;"	kind:namespace	line:58	language:Python
+randn	statesp.py	/^from numpy.random import rand, randn$/;"	kind:namespace	line:58	language:Python
+reachable_form	canonical.py	/^def reachable_form(xsys):$/;"	kind:function	line:48	language:Python	access:public
+real	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+real	lti.py	/^from numpy import absolute, real$/;"	kind:namespace	line:16	language:Python
+real	pzmap.py	/^from numpy import real, imag, linspace, exp, cos, sin, sqrt$/;"	kind:namespace	line:43	language:Python
+real	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+real	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+reduce	bdalg.py	/^    from functools import reduce$/;"	kind:namespace	line:105	language:Python
+reduce	bdalg.py	/^    from functools import reduce$/;"	kind:namespace	line:150	language:Python
+returnScipySignalLTI	statesp.py	/^    def returnScipySignalLTI(self):$/;"	kind:member	line:631	language:Python	class:StateSpace	access:public
+returnScipySignalLTI	xferfcn.py	/^    def returnScipySignalLTI(self):$/;"	kind:member	line:702	language:Python	class:TransferFunction	access:public
+rlocus	rlocus.py	/^rlocus = root_locus$/;"	kind:variable	line:368	language:Python
+root_locus	rlocus.py	/^def root_locus(sys, kvect=None, xlim=None, ylim=None, plotstr='-', Plot=True,$/;"	kind:function	line:64	language:Python	access:public
+roots	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+row_stack	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+rss	statesp.py	/^def rss(states=1, outputs=1, inputs=1):$/;"	kind:function	line:1242	language:Python	access:public
+sample	statesp.py	/^    def sample(self, Ts, method='zoh', alpha=None):$/;"	kind:member	line:687	language:Python	class:StateSpace	access:public
+sample	xferfcn.py	/^    def sample(self, Ts, method='zoh', alpha=None):$/;"	kind:member	line:867	language:Python	class:TransferFunction	access:public
+sample_system	dtime.py	/^def sample_system(sysc, Ts, method='zoh', alpha=None):$/;"	kind:function	line:55	language:Python	access:public
+sb01bd	statefbk.py	/^        from slycot import sb01bd$/;"	kind:namespace	line:172	language:Python
+sb02md	mateqn.py	/^        from slycot import sb02md$/;"	kind:namespace	line:439	language:Python
+sb02md	mateqn.py	/^        from slycot import sb02md$/;"	kind:namespace	line:708	language:Python
+sb02md	statefbk.py	/^        from slycot import sb02md$/;"	kind:namespace	line:312	language:Python
+sb02mt	mateqn.py	/^        from slycot import sb02mt$/;"	kind:namespace	line:444	language:Python
+sb02mt	mateqn.py	/^        from slycot import sb02mt$/;"	kind:namespace	line:713	language:Python
+sb02mt	statefbk.py	/^        from slycot import sb02mt$/;"	kind:namespace	line:313	language:Python
+sb03md	mateqn.py	/^        from slycot import sb03md$/;"	kind:namespace	line:258	language:Python
+sb03md	mateqn.py	/^        from slycot import sb03md$/;"	kind:namespace	line:76	language:Python
+sb03md	statefbk.py	/^            from slycot import sb03md$/;"	kind:namespace	line:490	language:Python
+sb03od	statefbk.py	/^            from slycot import sb03od$/;"	kind:namespace	line:509	language:Python
+sb04md	mateqn.py	/^        from slycot import sb04md$/;"	kind:namespace	line:81	language:Python
+sb04qd	mateqn.py	/^        from slycot import sb04qd$/;"	kind:namespace	line:263	language:Python
+sb10ad	robust.py	/^        from slycot import sb10ad$/;"	kind:namespace	line:150	language:Python
+sb10hd	robust.py	/^        from slycot import sb10hd$/;"	kind:namespace	line:86	language:Python
+scipy	rlocus.py	/^import scipy.signal             # signal processing toolbox$/;"	kind:namespace	line:52	language:Python
+series	bdalg.py	/^def series(sys1, *sysn):$/;"	kind:function	line:64	language:Python	access:public
+sg02ad	mateqn.py	/^        from slycot import sg02ad$/;"	kind:namespace	line:450	language:Python
+sg02ad	mateqn.py	/^        from slycot import sg02ad$/;"	kind:namespace	line:719	language:Python
+sg03ad	mateqn.py	/^            from slycot import sg03ad$/;"	kind:namespace	line:193	language:Python
+sg03ad	mateqn.py	/^        from slycot import sg03ad$/;"	kind:namespace	line:268	language:Python
+sgrid	grid.py	/^def sgrid():$/;"	kind:function	line:41	language:Python	access:public
+sgrid	pzmap.py	/^from .grid import sgrid, zgrid, nogrid$/;"	kind:namespace	line:46	language:Python
+sgrid	rlocus.py	/^from .grid import sgrid, zgrid, nogrid$/;"	kind:namespace	line:58	language:Python
+shape	canonical.py	/^from numpy import zeros, shape, poly, iscomplex, hstack$/;"	kind:namespace	line:9	language:Python
+shape	mateqn.py	/^from scipy import shape, size, asarray, asmatrix, copy, zeros, eye, dot$/;"	kind:namespace	line:44	language:Python
+shape	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+shape_matches	timeresp.py	/^    def shape_matches(s_legal, s_actual):$/;"	kind:function	line:138	language:Python	function:_check_convert_array	access:public
+signal	rlocus.py	/^import scipy.signal             # signal processing toolbox$/;"	kind:namespace	line:52	language:Python
+sin	grid.py	/^from numpy import cos, sin, sqrt, linspace, pi, exp$/;"	kind:namespace	line:2	language:Python
+sin	pzmap.py	/^from numpy import real, imag, linspace, exp, cos, sin, sqrt$/;"	kind:namespace	line:43	language:Python
+sin	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+sin	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+size	mateqn.py	/^from scipy import shape, size, asarray, asmatrix, copy, zeros, eye, dot$/;"	kind:namespace	line:44	language:Python
+slycot	exception.py	/^        import slycot$/;"	kind:namespace	line:66	language:Python
+slycot_check	exception.py	/^def slycot_check():$/;"	kind:function	line:64	language:Python	access:public
+solve	canonical.py	/^from numpy.linalg import solve, matrix_rank, eig$/;"	kind:namespace	line:10	language:Python
+solve	mateqn.py	/^from scipy.linalg import eigvals, solve_discrete_are, solve$/;"	kind:namespace	line:45	language:Python
+solve	statesp.py	/^from numpy.linalg import solve, eigvals, matrix_rank$/;"	kind:namespace	line:59	language:Python
+solve_discrete_are	mateqn.py	/^from scipy.linalg import eigvals, solve_discrete_are, solve$/;"	kind:namespace	line:45	language:Python
+sp	bdalg.py	/^import scipy as sp$/;"	kind:namespace	line:56	language:Python
+sp	freqplot.py	/^import scipy as sp$/;"	kind:namespace	line:45	language:Python
+sp	margins.py	/^import scipy as sp$/;"	kind:namespace	line:55	language:Python
+sp	nichols.py	/^import scipy as sp$/;"	kind:namespace	line:52	language:Python
+sp	statefbk.py	/^import scipy as sp$/;"	kind:namespace	line:44	language:Python
+sp	statesp.py	/^import scipy as sp$/;"	kind:namespace	line:61	language:Python
+sp	timeresp.py	/^import scipy as sp              # SciPy library (used all over)$/;"	kind:namespace	line:53	language:Python
+sp	xferfcn.py	/^import scipy as sp$/;"	kind:namespace	line:59	language:Python
+splev	frdata.py	/^from scipy.interpolate import splprep, splev$/;"	kind:namespace	line:55	language:Python
+splprep	frdata.py	/^from scipy.interpolate import splprep, splev$/;"	kind:namespace	line:55	language:Python
+sqrt	grid.py	/^from numpy import cos, sin, sqrt, linspace, pi, exp$/;"	kind:namespace	line:2	language:Python
+sqrt	pzmap.py	/^from numpy import real, imag, linspace, exp, cos, sin, sqrt$/;"	kind:namespace	line:43	language:Python
+sqrt	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+sqrt	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+squeeze	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+squeeze	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+ss	bdalg.py	/^from . import statesp as ss$/;"	kind:namespace	line:59	language:Python
+ss	robust.py	/^    from . import append, ss$/;"	kind:namespace	line:203	language:Python
+ss	robust.py	/^    from . import append, ss, connect$/;"	kind:namespace	line:250	language:Python
+ss	statesp.py	/^def ss(*args):$/;"	kind:function	line:1078	language:Python	access:public
+ss2tf	xferfcn.py	/^def ss2tf(*args):$/;"	kind:function	line:1244	language:Python	access:public
+ssdata	statesp.py	/^def ssdata(sys):$/;"	kind:function	line:1318	language:Python	access:public
+stability_margins	freqplot.py	/^from .margins import stability_margins$/;"	kind:namespace	line:50	language:Python
+stability_margins	margins.py	/^def stability_margins(sysdata, returnall=False, epsw=0.0):$/;"	kind:function	line:101	language:Python	access:public
+statesp	statefbk.py	/^from . import statesp$/;"	kind:namespace	line:45	language:Python
+step_response	timeresp.py	/^def step_response(sys, T=None, X0=0., input=None, output=None,$/;"	kind:function	line:363	language:Python	access:public
+tb01pd	statesp.py	/^                from slycot import tb01pd$/;"	kind:namespace	line:615	language:Python
+tb04ad	xferfcn.py	/^                from slycot import tb04ad$/;"	kind:namespace	line:1086	language:Python
+tb05ad	statesp.py	/^            from slycot import tb05ad$/;"	kind:namespace	line:472	language:Python
+td04ad	statesp.py	/^            from slycot import td04ad$/;"	kind:namespace	line:789	language:Python
+test	__init__.py	/^test = Tester().test$/;"	kind:variable	line:83	language:Python
+tf	bdalg.py	/^from . import xferfcn as tf$/;"	kind:namespace	line:58	language:Python
+tf	xferfcn.py	/^def tf(*args):$/;"	kind:function	line:1150	language:Python	access:public
+tf2ss	statesp.py	/^def tf2ss(*args):$/;"	kind:function	line:1170	language:Python	access:public
+tf2zpk	xferfcn.py	/^from scipy.signal import lti, tf2zpk, zpk2tf, cont2discrete$/;"	kind:namespace	line:61	language:Python
+tfdata	xferfcn.py	/^def tfdata(sys):$/;"	kind:function	line:1321	language:Python	access:public
+timebase	lti.py	/^def timebase(sys, strict=True):$/;"	kind:function	line:136	language:Python	access:public
+timebase	statesp.py	/^from .lti import LTI, timebase, timebaseEqual, isdtime$/;"	kind:namespace	line:64	language:Python
+timebase	xferfcn.py	/^from .lti import LTI, timebaseEqual, timebase, isdtime$/;"	kind:namespace	line:65	language:Python
+timebaseEqual	lti.py	/^def timebaseEqual(sys1, sys2):$/;"	kind:function	line:159	language:Python	access:public
+timebaseEqual	statesp.py	/^from .lti import LTI, timebase, timebaseEqual, isdtime$/;"	kind:namespace	line:64	language:Python
+timebaseEqual	xferfcn.py	/^from .lti import LTI, timebaseEqual, timebase, isdtime$/;"	kind:namespace	line:65	language:Python
+unwrap	ctrlutil.py	/^def unwrap(angle, period=2*math.pi):$/;"	kind:function	line:51	language:Python	access:public
+unwrap	freqplot.py	/^from .ctrlutil import unwrap$/;"	kind:namespace	line:48	language:Python
+unwrap	nichols.py	/^from .ctrlutil import unwrap$/;"	kind:namespace	line:55	language:Python
+use_fbs_defaults	config.py	/^def use_fbs_defaults():$/;"	kind:function	line:31	language:Python	access:public
+use_matlab_defaults	config.py	/^def use_matlab_defaults():$/;"	kind:function	line:18	language:Python	access:public
+warn	statesp.py	/^from warnings import warn$/;"	kind:namespace	line:63	language:Python
+warn	xferfcn.py	/^from warnings import warn$/;"	kind:namespace	line:63	language:Python
+warnings	timeresp.py	/^import warnings$/;"	kind:namespace	line:56	language:Python
+where	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
+where	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+xferfcn	margins.py	/^from . import xferfcn$/;"	kind:namespace	line:56	language:Python
+zero	lti.py	/^def zero(sys):$/;"	kind:function	line:259	language:Python	access:public
+zero	statesp.py	/^    def zero(self):$/;"	kind:member	line:515	language:Python	class:StateSpace	access:public
+zero	xferfcn.py	/^    def zero(self):$/;"	kind:member	line:620	language:Python	class:TransferFunction	access:public
+zeros	canonical.py	/^from numpy import zeros, shape, poly, iscomplex, hstack$/;"	kind:namespace	line:9	language:Python
+zeros	mateqn.py	/^from scipy import shape, size, asarray, asmatrix, copy, zeros, eye, dot$/;"	kind:namespace	line:44	language:Python
+zeros	statesp.py	/^    dot, empty, exp, eye, isinf, matrix, ones, pad, shape, sin, zeros, squeeze$/;"	kind:namespace	line:57	language:Python
+zeros	xferfcn.py	/^    where, delete, real, poly, nonzero$/;"	kind:namespace	line:58	language:Python
+zeros_like	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
+zgrid	grid.py	/^def zgrid(zetas=None, wns=None):$/;"	kind:function	line:132	language:Python	access:public
+zgrid	pzmap.py	/^from .grid import sgrid, zgrid, nogrid$/;"	kind:namespace	line:46	language:Python
+zgrid	rlocus.py	/^from .grid import sgrid, zgrid, nogrid$/;"	kind:namespace	line:58	language:Python
+zpk2tf	xferfcn.py	/^from scipy.signal import lti, tf2zpk, zpk2tf, cont2discrete$/;"	kind:namespace	line:61	language:Python
