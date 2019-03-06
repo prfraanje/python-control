@@ -142,7 +142,7 @@ _evalfr	statesp.py	/^    def _evalfr(self, omega):$/;"	kind:member	line:394	lang
 _evalfr	xferfcn.py	/^    def _evalfr(self, omega):$/;"	kind:member	line:542	language:Python	class:TransferFunction	access:public
 _final_setup	grid.py	/^def _final_setup(ax):$/;"	kind:function	line:118	language:Python	access:public
 _find	phaseplot.py	/^def _find(condition):$/;"	kind:function	line:49	language:Python	access:public
-_get_ss_simo	timeresp.py	/^def _get_ss_simo(sys, input=None, output=None):$/;"	kind:function	line:345	language:Python	access:public
+_get_ss_simo	timeresp.py	/^def _get_ss_simo(sys, input=None, output=None):$/;"	kind:function	line:342	language:Python	access:public
 _k_max	rlocus.py	/^def _k_max(num, den, real_break_points, k_break_points):$/;"	kind:function	line:256	language:Python	access:public
 _matrix	statesp.py	/^def _matrix(a):$/;"	kind:function	line:71	language:Python	access:public
 _mimo2simo	statesp.py	/^def _mimo2simo(sys, input, warn_conversion=False):$/;"	kind:function	line:1029	language:Python	access:public
@@ -292,8 +292,8 @@ hsvd	modelsimp.py	/^def hsvd(sys):$/;"	kind:function	line:59	language:Python	acc
 imag	frdata.py	/^    real, imag, matrix, absolute, eye, linalg, where, dot$/;"	kind:namespace	line:54	language:Python
 imag	pzmap.py	/^from numpy import real, imag, linspace, exp, cos, sin, sqrt$/;"	kind:namespace	line:43	language:Python
 imag	rlocus.py	/^from scipy import array, poly1d, row_stack, zeros_like, real, imag, exp, sin, cos, linspace, sqrt$/;"	kind:namespace	line:50	language:Python
-impulse_response	timeresp.py	/^def impulse_response(sys, T=None, X0=0., input=0, output=None,$/;"	kind:function	line:515	language:Python	access:public
-initial_response	timeresp.py	/^def initial_response(sys, T=None, X0=0., input=0, output=None,$/;"	kind:function	line:442	language:Python	access:public
+impulse_response	timeresp.py	/^def impulse_response(sys, T=None, X0=0., input=0, output=None,$/;"	kind:function	line:512	language:Python	access:public
+initial_response	timeresp.py	/^def initial_response(sys, T=None, X0=0., input=0, output=None,$/;"	kind:function	line:439	language:Python	access:public
 iscomplex	canonical.py	/^from numpy import zeros, shape, poly, iscomplex, hstack$/;"	kind:namespace	line:9	language:Python
 isctime	dtime.py	/^from .lti import isctime$/;"	kind:namespace	line:49	language:Python
 isctime	lti.py	/^    def isctime(self, strict=False):$/;"	kind:member	line:68	language:Python	class:LTI	access:public
@@ -507,7 +507,7 @@ ssdata	statesp.py	/^def ssdata(sys):$/;"	kind:function	line:1318	language:Python
 stability_margins	freqplot.py	/^from .margins import stability_margins$/;"	kind:namespace	line:50	language:Python
 stability_margins	margins.py	/^def stability_margins(sysdata, returnall=False, epsw=0.0):$/;"	kind:function	line:101	language:Python	access:public
 statesp	statefbk.py	/^from . import statesp$/;"	kind:namespace	line:45	language:Python
-step_response	timeresp.py	/^def step_response(sys, T=None, X0=0., input=None, output=None,$/;"	kind:function	line:363	language:Python	access:public
+step_response	timeresp.py	/^def step_response(sys, T=None, X0=0., input=None, output=None,$/;"	kind:function	line:360	language:Python	access:public
 tb01pd	statesp.py	/^                from slycot import tb01pd$/;"	kind:namespace	line:615	language:Python
 tb04ad	xferfcn.py	/^                from slycot import tb04ad$/;"	kind:namespace	line:1086	language:Python
 tb05ad	statesp.py	/^            from slycot import tb05ad$/;"	kind:namespace	line:472	language:Python

@@ -331,9 +331,6 @@ def forced_response(sys, T=None, U=0., X0=0., transpose=False):
         xout = sp.transpose(xout)
         yout = sp.transpose(yout)
 
-        yout = squeeze(yout)
-        xout = squeeze(xout)
-
     # See if we need to transpose the data back into MATLAB form
     if (transpose):
         T = np.transpose(T)
